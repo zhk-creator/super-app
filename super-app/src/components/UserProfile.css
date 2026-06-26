@@ -1,0 +1,46 @@
+.profile-widget{
+
+    background:#5746EA;
+    color:white;
+    min-height:220px;
+
+}
+
+.profile-widget h2{
+
+    font-size:30px;
+    margin-bottom:15px;
+
+}
+
+.profile-widget p{
+
+    margin:8px 0;
+    font-size:18px;
+
+}
+.profile-widget{
+
+display:flex;
+
+gap:20px;
+
+align-items:center;
+
+background:#5746EA;
+
+color:white;
+
+}
+
+.profile-image{
+
+width:90px;
+
+height:90px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+}

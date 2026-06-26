@@ -1,0 +1,17 @@
+.notes-widget{
+    background:white;
+    min-height:300px;
+}
+
+.notes-widget h2{
+    margin-bottom:20px;
+}
+
+.notes-widget textarea{
+    width:100%;
+    height:220px;
+    border:none;
+    resize:none;
+    outline:none;
+    font-size:16px;
+}

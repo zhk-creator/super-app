@@ -1,0 +1,46 @@
+.category-card {
+  height: 180px;
+  border-radius: 18px;
+  padding: 20px;
+  cursor: pointer;
+  transition: .3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.category-card.active {
+  outline: 6px solid #11B800;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-header h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.check {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #11B800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.emoji {
+  font-size: 60px;
+  text-align: center;
+}
